@@ -1,6 +1,6 @@
 .jumbotron {
     background: url(https://cdn-brilio-net.akamaized.net/news/2015/06/29/7630/thumbnail-begini-kronologi-pembukuan-alquran-hingga-jadi-seperti-yang-sekarang-1506298.jpg)
-        no-repeat center center fixed;
+        no-repeat center center;
     background-size: cover;
     height: 540px;
     text-align: center;
@@ -169,4 +169,7 @@ audio{
         width: 220px;
         margin: auto;
     }
+}
+.navbar .bg-primary{
+    transition: background-color 200ms linear;
 }

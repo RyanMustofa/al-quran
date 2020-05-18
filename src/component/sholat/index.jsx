@@ -99,7 +99,7 @@ export class Sholat extends React.Component {
                     </div>
                 </nav>
 
-                <div className="jumbotron jumbotron-fluid">
+                <div className="jumbotron jumbotron-fluid" id="main">
                     <div className="container">
                         <h1 className="display-4">Jadwal Sholat</h1>
                     </div>

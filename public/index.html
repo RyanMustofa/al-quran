@@ -68,6 +68,9 @@
       $(document).ready(() => {
         $('.jumbotron').parallax("50%",0.1);
       })
+      $(document).scroll(() => {
+        $('nav').toggleClass('bg-primary',$(this).scrollTop() > $('nav').height())
+      })
     </script>
   </body>
 </html>

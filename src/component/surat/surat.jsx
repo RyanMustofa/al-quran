@@ -29,7 +29,7 @@ class Surat extends React.Component {
         return (
             <div className="body">
                 <Navbar />
-                <div className="jumbotron jumbotron-fluid">
+                <div className="jumbotron jumbotron-fluid" id="main">
                     <div className="container">
                         <h1 class="display-4">Daftar Surat</h1>
                     </div>

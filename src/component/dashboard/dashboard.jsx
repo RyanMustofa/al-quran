@@ -10,7 +10,7 @@ const Dashboard = () => {
                     AL-QURAN INDONESIA
                 </a>
             </nav>
-            <div className="jumbotron jumbotron-fluid">
+            <div className="jumbotron jumbotron-fluid" id="main">
                 <div className="container">
                     <h1 className="display-4">Al-Quran Indonesia</h1>
                 </div>
